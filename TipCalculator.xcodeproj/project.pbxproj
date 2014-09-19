@@ -13,6 +13,7 @@
 		6E411D0219CBA127005403DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E411D0119CBA127005403DE /* Images.xcassets */; };
 		6E411D0519CBA127005403DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E411D0319CBA127005403DE /* LaunchScreen.xib */; };
 		6E411D1119CBA127005403DE /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E411D1019CBA127005403DE /* TipCalculatorTests.swift */; };
+		6E411D1B19CBA209005403DE /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E411D1A19CBA209005403DE /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6E411D0A19CBA127005403DE /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E411D0F19CBA127005403DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E411D1019CBA127005403DE /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		6E411D1A19CBA209005403DE /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		6E411CEC19CBA127005403DE = {
 			isa = PBXGroup;
 			children = (
+				6E411D1A19CBA209005403DE /* TipCalculatorModel.swift */,
 				6E411CF719CBA127005403DE /* TipCalculator */,
 				6E411D0D19CBA127005403DE /* TipCalculatorTests */,
 				6E411CF619CBA127005403DE /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E411D1B19CBA209005403DE /* TipCalculatorModel.swift in Sources */,
 				6E411CFD19CBA127005403DE /* ViewController.swift in Sources */,
 				6E411CFB19CBA127005403DE /* AppDelegate.swift in Sources */,
 			);
